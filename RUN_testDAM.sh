@@ -1,0 +1,22 @@
+python3 testDAM.py \
+        --training_file_path "./data/train" \
+        --validation_file_path "./data/valid" \
+        --testing_file_path "./data/test" \
+        --vocabulary_local_path "$./data/vocab/" \
+        --model_save_path "$./data/saved_models/my_dam_model/" \
+        --predictions_save_path "$./data/predictions/my_dam_model//" \
+        --gpu_to_use 1 \
+        --learning_rate 0.001 \
+        --number_of_epochs 8 \
+        --batch_size 512 \
+        --metric_display_freq 512 \
+        --model_save_frequency 512 \
+        --n_classes 5 \
+        --n_features 0 \
+        --n_words 300 \
+        --n_conv_filters 64 \
+        --textEmbedding 300 \
+        --biRnnEmbedding 200 \
+        --linearProjectionEmbedding 200 \
+        --finalLinearProjectionEmbedding 200 \
+        --verbose # > $log_file 2>&1 &
