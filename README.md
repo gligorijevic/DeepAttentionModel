@@ -31,6 +31,8 @@ Sample dataset provided with the implementation is [amazon fine food reviews dat
 
 J. McAuley and J. Leskovec. From amateurs to connoisseurs: modeling the evolution of user expertise through online reviews. WWW, 2013.
 
+Sharing ED triage notes data is unfortunately currently not possible.
+
 ## Implementation Issues
 
 For any problems detected with the implementation, please file an issue on the project.
