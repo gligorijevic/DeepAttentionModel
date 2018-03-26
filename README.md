@@ -30,3 +30,7 @@ sh RUN_testDAM.sh
 Sample dataset provided with the implementation is [amazon fine food reviews dataset](https://www.kaggle.com/snap/amazon-fine-food-reviews) and it is processed from: 
 
 J. McAuley and J. Leskovec. From amateurs to connoisseurs: modeling the evolution of user expertise through online reviews. WWW, 2013.
+
+## Implementation Issues
+
+For any problem detected with the implementation, please file an issue on the project.
